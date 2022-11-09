@@ -1,0 +1,32 @@
+.navbar {
+  box-sizing: border-box;
+  border-style: solid;
+  color: #fd0202;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100vw;
+  max-height: 200vh;
+  align-items: center;
+}
+
+.navbar-link, 
+.savedSounds {
+  color: black;
+  text-decoration: none;
+  max-height: 30vh;
+  margin: 0px 15px 0px 0px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.savedSounds:hover {
+  color: #9d02fd;
+}
+
+/* .my-gallery-link:active {
+  color: #FD6A02;
+} */
+
+.logo-img {
+  max-height: 30vh;
+}
