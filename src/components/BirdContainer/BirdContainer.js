@@ -2,16 +2,35 @@ import React from 'react';
 import BirdCard from '../BirdCards/BirdCards'
 import './BirdContainer.css';
 
-const Birds = (props) => {
-  // const birdCards = 
-  // props.recordings.map(bird => {
+const Birds = ({ birds }) => {
+  const birdCards = 
+      birds.map(bird => {
+      const { name } = bird.en
+      const { sex } = bird.sex
+      const { id } = bird.id
     return (
       <BirdCard 
-        // birdSpecies={bird.en}
-        // birdSex={bird.sex}
+        birdSpecies={name}
+        birdSex={sex}
+        id={id}
+        key={id}
       />
     )
-  // })
+  })
+
+  const displayAllBirds = () => {
+    return (
+      <div>
+        { birdCards }
+      </div>
+    )
+  }
+
+  return (
+    <section>
+      { displayAllBirds() } 
+    </section>
+  )
 
 }
 

@@ -1,12 +1,15 @@
 import React from 'react';
 import './BirdCards.css'
+import { Link } from 'react-router-dom'
 
-const BirdCard = ({birdSpecies, birdSex}) => {
+const BirdCard = ({name, sex, id}) => {
   return (
-    <div className='card'>
-      <h3>{birdSpecies}</h3>
-      <p>{birdSex}</p>
-    </div>
+    <Link to={`/IndividualBird/${id}`} className='cards-container'>
+      <div className='card'>
+        <h3>{name}</h3>
+        <p>{sex}</p>
+      </div>
+    </Link>
   )
 }
 

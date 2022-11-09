@@ -5,7 +5,7 @@ const getBirds = async () => {
       console.log(response.status)
       throw new Error(response.status)
     }
-    const data = await response.recordings;
+    const data = await response.json()
     console.log('hello', data)
     return data;
   }
@@ -14,4 +14,4 @@ const getBirds = async () => {
   }
 };
 
-export {getBirds}
+export { getBirds }
