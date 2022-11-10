@@ -6,8 +6,8 @@ import southAmerica from './SouthAfrica.png'
 
 const AboutUs = () => {
   return (
-    <div>
-      <h2>Our Purpose</h2>
+    <div className={'about-layout'}>
+      {/* <h2>Our Purpose</h2> */}
       <p>
         The bearded bellbird can be found in Northern South America.  The male pictured is about 28 cm long with white plumage
         apart from a brown head and black wings.  At his throat hang several black, unfeathered wattles.  Most of the recordings
@@ -15,8 +15,8 @@ const AboutUs = () => {
         subspecies, the nominate subspecies is only found in northeastern Brazil, while the other subspecies occurs in Trinidad, 
         Venezuela, Colombia, Guyana, eastern Bolivia and northern Brazil.
       </p>
+        <img className='about-bird-image'src={birdPhoto} alt={'male bearded bell'}/>
       <div>
-        <img src={birdPhoto} alt={'male bearded bell'}/>
         <img src={southAmerica} alt={'Map of South America'}/>
       </div>
     </div>
