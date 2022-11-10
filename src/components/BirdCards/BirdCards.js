@@ -1,15 +1,18 @@
 import React from 'react';
 import './BirdCards.css'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
-const BirdCard = ({name, sex, id}) => {
+const BirdCard = (props) => {
+  console.log('wtf', props)
+  // console.log('getting it?', props.recordings.id)
   return (
-    <Link to={`/IndividualBird/${id}`} className='cards-container'>
-      <div className='card'>
-        <h3>{name}</h3>
-        <p>{sex}</p>
+    // <Link to={`/IndividualBird/${id}`} className='cards-container'>
+      <div className='card' id={props.id}>
+        <h3>{props.birdSpecies}</h3>
+        <p>{props.birdSex}</p>
+        <p>{props.birdCountry}</p>
       </div>
-    </Link>
+    // </Link>
   )
 }
 
