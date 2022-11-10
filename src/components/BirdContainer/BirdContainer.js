@@ -18,7 +18,7 @@ const Birds = (props) => {
         birdSex={bird.sex}
         birdCountry={bird.cnt}
         birdLocation={bird.loc}
-        birdSound={bird.file}
+        birdSound={bird['file-name']}
         id={bird.id}
         key={bird.id}
       />
@@ -40,5 +40,6 @@ const Birds = (props) => {
   )
 
 }
+
 
 export default Birds
