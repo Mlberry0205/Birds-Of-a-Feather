@@ -17,6 +17,8 @@ const Birds = (props) => {
         birdSpecies={bird.en}
         birdSex={bird.sex}
         birdCountry={bird.cnt}
+        birdLocation={bird.loc}
+        birdSound={bird.file}
         id={bird.id}
         key={bird.id}
       />
