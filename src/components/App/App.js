@@ -5,6 +5,7 @@ import Navbar from '../Navbar/Navbar';
 import { getBirds } from '../../apiCalls'
 import { Route } from 'react-router-dom';
 import React, {useState, useEffect} from 'react'
+import AboutUs from '../AboutUs/AboutUs';
 
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
     return (
       <main className="App">
         <Navbar />
-        <p>Sometimes I think that the point of birdwatching is not the actual seeing of the birds, but the cultivation of patience & the sounds of the bird.</p>
+        <Route exact path="/AboutUs" render={() => <AboutUs/>}/>
         {/* <Birds /> */}
         <Route exact path='/'
           render={() => <BirdContainer

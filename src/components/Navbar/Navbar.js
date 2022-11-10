@@ -9,7 +9,8 @@ const Navbar = () => {
       <Link className='navbar-link' to='/'>
         <img src={ logo } alt='Birds of a Feather logo' className='logo-img'/>
       </Link>
-      <NavLink to='/savedSounds' className='savedSounds'>My Sounds</NavLink>
+      <NavLink to='/savedSounds' className='saved-sounds'>My Sounds</NavLink>
+      <NavLink to="/AboutUs" className='about-us'>About Us</NavLink>
     </nav>
   )
 }
