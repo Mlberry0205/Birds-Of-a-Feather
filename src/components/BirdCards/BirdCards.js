@@ -16,7 +16,6 @@ const BirdCard = (props) => {
     }
   }
   return (
-    // <Link to={`/IndividualBird/${props.id}`} className='cards-container'>
       <div className='card' id={props.id}>
         <h3>{props.birdSpecies}</h3>
         <p>Sex: {props.birdSex}</p>
@@ -31,7 +30,6 @@ const BirdCard = (props) => {
             </a>
         {props.birdSound}</audio>
       </div>
-    // </Link>
   )
 }
 

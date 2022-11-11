@@ -6,6 +6,7 @@ import { getBirds } from '../../apiCalls'
 import { Route } from 'react-router-dom';
 import React, {useState, useEffect} from 'react'
 import AboutUs from '../AboutUs/AboutUs';
+import Form from '../Form/Form'
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
     return (
       <main className="App">
         <Navbar />
+        <Form />
         <Route exact path="/AboutUs" render={() => <AboutUs/>}/>
         {/* <Birds /> */}
         <Route exact path='/'
