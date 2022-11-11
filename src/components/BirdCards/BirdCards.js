@@ -2,34 +2,33 @@ import React from 'react';
 import './BirdCards.css'
 // import { Link } from 'react-router-dom'
 
-const BirdCard = (props) => {
-  const findLocationKey = (connect) => {
-    // console.log('country', props.birdCountry)
-    const location = connect.birdCountry
-    // console.log(connect.birdCountry)
-    console.log('location', location)
-    if (location === 'Brazil') {
+const BirdCard = ({id, species, sex, country, location, sound}) => {
+  const findLocationKey = (location) => {
+    if (location === 'Barbalha, Ceará') {
       return 'AYDQCSKTHG'
-    } else if (location === 'Venezuela') {
-      return 'LXKLWEDKEM'
-    } else {
-      return 'WOEAFQRMUD'
+    } else if (location === 'La Escalera, Sierra de Lema, Bolívar') {
+      return 'CDTGHVBGZP'
+    } else if (location === 'Asa Wright Nature Centre') {
+      return 'WOEAFQRMUD' || ' LXKLWEDKEM'
     }
   }
   return (
-      <div className='card' id={props.id}>
-        <h3>{props.birdSpecies}</h3>
-        <p>Sex: {props.birdSex}</p>
-        <p>Country: {props.birdCountry}</p>
-        <p>Location: {props.birdLocation}</p>
+      <div className='card' id={id}>
+        <h3>{species}</h3>
+        <p>Sex: {sex}</p>
+        <p>Country: {country}</p>
+        <p>Location: {location}</p>
         <audio
           controls
-            src={`//xeno-canto.org/sounds/uploaded/${findLocationKey(props)}/${props.birdSound}`}>
+           src={`//xeno-canto.org/sounds/uploaded/${findLocationKey(location)}/${sound}`} 
+            >
             <a 
-              href={`//xeno-canto.org/sounds/uploaded/${findLocationKey(props)}/${props.birdSound}`}>
+            href={`//xeno-canto.org/sounds/uploaded/${findLocationKey(location)}/${sound}`}
+            >
         Download audio
             </a>
-        {props.birdSound}</audio>
+        {sound}
+        </audio>
       </div>
   )
 }

@@ -20,10 +20,20 @@ function App() {
       getBirdData()
     }, [])
 
+    const handleClick = (event, search) => {
+      event.preventDefault()
+      const searchResult = birds?.filter((bird) => {
+        if (bird.cnt === search) {
+          return bird
+        }
+      })
+      setBirds(searchResult)
+    }
+
     return (
       <main className="App">
         <Navbar />
-        <Form />
+        <Form handleClick={handleClick} birds={ birds }/>
         <Route exact path="/AboutUs" render={() => <AboutUs/>}/>
         <Route exact path='/'
           render={() => <BirdContainer

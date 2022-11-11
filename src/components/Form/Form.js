@@ -1,12 +1,22 @@
 import React, { useState } from 'react';
 import './Form.css';
 
-function Form() {
+function Form({ handleClick }) {
   const [search, setSearch] = useState('')
 
   const clearInputs = () => {
     setSearch('')
   }
+
+  // const handleClick = (event) => {
+  //   event.preventDefault()
+  //   const searchResult = birds?.filter((bird) => {
+  //     if (bird.cnt === search) {
+  //       return bird
+  //     }
+  //   })
+  //   console.log(searchResult)
+  // }
 
     return (
       <form >
@@ -18,8 +28,7 @@ function Form() {
           onChange={event => setSearch(event.target.value)}
           required
         />
-        <button>SEARCH</button>
-          {/* <button onClick={}>SEARCH</button> */}
+          <button type='submit' onClick={(event) => handleClick(event, search)}>SEARCH</button>
       </form>
     )
   }
