@@ -1,7 +1,9 @@
 
 .birds-container {
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  display:flex;
+  justify-content: center;
+  background-image: url('./tropical.png');
+  border-spacing: 5px;
+  padding-top: 2rem;
+  width: 100%;
 }

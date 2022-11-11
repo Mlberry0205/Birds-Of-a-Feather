@@ -3,11 +3,9 @@ import "./AboutUs.css"
 import birdPhoto from './beardedBell.png'
 import southAmerica from './SouthAfrica.png'
 
-
 const AboutUs = () => {
   return (
     <div className={'about-layout'}>
-      {/* <h2>Our Purpose</h2> */}
       <p>
         The bearded bellbird can be found in Northern South America.  The male pictured is about 28 cm long with white plumage
         apart from a brown head and black wings.  At his throat hang several black, unfeathered wattles.  Most of the recordings

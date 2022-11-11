@@ -34,7 +34,7 @@ const Birds = (props) => {
   }
 
   return (
-    <section>
+    <section className='birds-container'>
       { displayAllBirds() } 
     </section>
   )
