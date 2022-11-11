@@ -2,7 +2,6 @@
   box-sizing: border-box;
   background-color: blanchedalmond;
   display: flex;
-  /* justify-content:space-between; */
   max-width: 100vw;
   max-height: 200vh;
   align-items: center;

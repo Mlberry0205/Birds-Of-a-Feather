@@ -8,7 +8,6 @@ import React, {useState, useEffect} from 'react'
 import AboutUs from '../AboutUs/AboutUs';
 import Form from '../Form/Form'
 
-
 function App() {
   const [birds, setBirds] = useState([])
 
@@ -20,29 +19,12 @@ function App() {
     }
       getBirdData()
     }, [])
-// }
 
-// class App extends Component {
-//   constructor() {
-//     super();
-//     this.state = {
-//       birds: []
-//     }
-//   }
-
-  // componentDidMount = () => {
-  //   getBirds()
-  //     .then(data => this.setState({ birds: data.recordings }))
-  //     .catch(error => this.setState({ error: error }))
-  // }
-
-  // render() {
     return (
       <main className="App">
         <Navbar />
         <Form />
         <Route exact path="/AboutUs" render={() => <AboutUs/>}/>
-        {/* <Birds /> */}
         <Route exact path='/'
           render={() => <BirdContainer
             birds={ birds }
@@ -51,6 +33,6 @@ function App() {
       </main>
     )
   }
-// }
+
 
 export default App;

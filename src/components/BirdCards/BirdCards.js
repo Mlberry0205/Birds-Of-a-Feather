@@ -3,10 +3,11 @@ import './BirdCards.css'
 // import { Link } from 'react-router-dom'
 
 const BirdCard = (props) => {
-  const findLocationKey = (potatoe) => {
+  const findLocationKey = (connect) => {
     // console.log('country', props.birdCountry)
-    const location = potatoe.birdCountry
-    console.log(potatoe.birdCountry)
+    const location = connect.birdCountry
+    // console.log(connect.birdCountry)
+    console.log('location', location)
     if (location === 'Brazil') {
       return 'AYDQCSKTHG'
     } else if (location === 'Venezuela') {

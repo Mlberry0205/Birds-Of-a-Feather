@@ -1,34 +1,28 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './Form.css';
 
-class Form extends Component {
+function Form() {
+  const [search, setSearch] = useState('')
 
-  constructor() {
-    super();
-    this.state = {
-      search: ''
-    }
+  const clearInputs = () => {
+    setSearch('')
   }
 
-  handleChange = event => {
-    this.setState({[event.target.name]: event.target.value});
-  }
-
-  render() {
     return (
-      <form onSubmit={(event) => this.props.searchBirds(event, this.state.search.toLowerCase())}>
+      <form >
         <input 
           type='text'
           placeholder='Search by country'
           name='search'
-          value={this.state.search}
-          onChange={event => this.handleChange(event)}
+          value={search}
+          onChange={event => setSearch(event.target.value)}
           required
         />
-          <button>SUBMIT</button>
+        <button>SEARCH</button>
+          {/* <button onClick={}>SEARCH</button> */}
       </form>
     )
   }
-}
+
 
 export default Form;
