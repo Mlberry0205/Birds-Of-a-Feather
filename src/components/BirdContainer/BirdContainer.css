@@ -2,7 +2,8 @@
 .birds-container {
   display:flex;
   justify-content: center;
-  background-image: url('./tropical.png');
+  background-image: url('./tropical2.png');
+  background-color: #76a941;
   border-spacing: 5px;
   padding-top: 2rem;
   width: 100%;

@@ -19,9 +19,9 @@ const BirdCard = (props) => {
     // <Link to={`/IndividualBird/${props.id}`} className='cards-container'>
       <div className='card' id={props.id}>
         <h3>{props.birdSpecies}</h3>
-        <p>{props.birdSex}</p>
-        <p>{props.birdCountry}</p>
-        <p>{props.birdLocation}</p>
+        <p>Sex: {props.birdSex}</p>
+        <p>Country: {props.birdCountry}</p>
+        <p>Location: {props.birdLocation}</p>
         <audio
           controls
             src={`//xeno-canto.org/sounds/uploaded/${findLocationKey(props)}/${props.birdSound}`}>

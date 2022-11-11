@@ -9,7 +9,14 @@
   padding-top: 2rem;
 }
 
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .about-bird-image {
-  height: 70vh;
-  width:75vw;
+  height: 60vh;
+  width:40vw;
+  border-radius: .5rem;
 }
