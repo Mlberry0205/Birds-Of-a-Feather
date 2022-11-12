@@ -4,10 +4,9 @@ import './BirdContainer.css';
 
 const Birds = ({birds}) => {
   const birdCards = birds?.map(bird => {
-    const {en, rec, cnt, loc, id, 'file-name':fileName} = bird
+    const {rec, cnt, loc, id, 'file-name':fileName} = bird
     return (
       <BirdCard 
-        species={en}
         rec={rec}
         country={cnt}
         location={loc}
