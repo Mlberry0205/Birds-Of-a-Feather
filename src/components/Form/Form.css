@@ -1,0 +1,12 @@
+form {
+  display:flex;
+  justify-content: center;
+  background-color: blanchedalmond;
+ 
+}
+
+input, button {
+  margin: .5em;
+  border: 3px solid #458df6;
+  font-size: 1em;
+}
