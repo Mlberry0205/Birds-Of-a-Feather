@@ -7,17 +7,6 @@ function Form({ handleClick }) {
   const clearInputs = () => {
     setSearch('')
   }
-
-  // const handleClick = (event) => {
-  //   event.preventDefault()
-  //   const searchResult = birds?.filter((bird) => {
-  //     if (bird.cnt === search) {
-  //       return bird
-  //     }
-  //   })
-  //   console.log(searchResult)
-  // }
-
     return (
       <form >
         <input 
