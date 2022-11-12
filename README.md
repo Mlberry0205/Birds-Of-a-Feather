@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+<p align="center">
+<img width='400' alt='Art Party logo' src='https://user-images.githubusercontent.com/102934145/201456667-45ebda6d-b9cc-4f68-b9c5-b765952ad323.png'>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### [Deployed Project]
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
 
-### `npm start`
+## Project Context
+I am a Mod 3 students in the Front-End Program at [Turing School of Software and Design](https://frontend.turing.edu/), which means we have been devs for 6 months!  Birds of a Feather is my third React application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Learning Goals for this project included:      
+✔️ Use the technology you’ve been working with over the course of the module to demonstrate mastery of the following:  
+✔️ React, Router, Asynchronous JavaScript, End to end testing with Cypress          
+✔️ Create a multi-page engaging UX using React Router 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+[Link to Project Description](https://frontend.turing.edu/projects/module-3/showcase.html)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup
+1. From your terminal, `cd` back to your parent directory
+2. Clone down this repository:
+  ```
+  https://github.com/Mlberry0205/birds-of-a-feather
+  ```
+3. `cd` into `art-party` directory and run:
+  ```
+  npm install
+  npm start
+  ```
+4. Enter the following url in your browser: http://localhost:3000/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
+![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) 
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) 
+![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e) 
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black) 
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) 
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Future Features
+- [x] 
 
-### `npm run eject`
+## Dev Notes
+### Wins
+- [x] 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Opportunities for growth
+- [x] Learning how to stub and intercept with Cypress testing
+- [x] Expanding our knowledge of Cypress syntax
+- [x] Practice using React hooks: useState & useEffect
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Developed by:
+Morgan Berry |
+morganlyn.berry@gmail.com |
+[Github](https://github.com/Mlberry0205) |
+[LinkedIn](https://www.linkedin.com/in/morgan-lyn-berry/) |
