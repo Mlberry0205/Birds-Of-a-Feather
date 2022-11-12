@@ -5,7 +5,7 @@
 ### [Deployed Project]
 
 ## Overview
-
+Birds of a Feather is an app that allows bird watching enthusiasts to explore the various sounds of the Bearded Bellbird.  The user can search different countries to hear the calls of this bird from that region.
 
 ## Project Context
 I am a Mod 3 students in the Front-End Program at [Turing School of Software and Design](https://frontend.turing.edu/), which means we have been devs for 6 months!  Birds of a Feather is my third React application.
@@ -45,20 +45,21 @@ Learning Goals for this project included:
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
+## Dev Notes
+### Wins
+- [x] Configuring bird audio utalizing multiple different ID's
+- [x] Creating a component to view search results when a user enters a specific bird to search for.
+- [x] Learning hooks: UseState & useEffect
+
+### Opportunities for growth
+- [x] Error handling on a controlled form
+- [x] Expanding our knowledge of Cypress syntax
+- [x] Practice using React hooks: useState & useEffect
+
 ## Future Features
 - [X] Favoriting bird songs
 - [X] Add bird photos to each birdCard
 - [X] Add birds from all around the world
-
-## Dev Notes
-### Wins
-- [x] Configuring bird audio utalizing multiple different ID's
-- [x] Error handling on a controlled form
-
-### Opportunities for growth
-- [x] Learning how to stub and intercept with Cypress testing
-- [x] Expanding our knowledge of Cypress syntax
-- [x] Practice using React hooks: useState & useEffect
 
 ## Developed by:
 Morgan Berry |
@@ -67,6 +68,6 @@ morganlyn.berry@gmail.com |
 [LinkedIn](https://www.linkedin.com/in/morgan-lyn-berry/)
 
 ## Project planning & Acknowledgments 
-[Project Board with User Stories](https://github.com/users/alyciacan/projects/5) |
+[Project Board with User Stories](https://github.com/users/Mlberry0205/projects/6) |
 - John Boudreaux
 
