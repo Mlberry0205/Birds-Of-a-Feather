@@ -33,5 +33,4 @@ const Birds = ({birds}) => {
 
 }
 
-
 export default Birds

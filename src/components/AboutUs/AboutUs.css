@@ -12,4 +12,10 @@
   width: 50vh;
 }
 
+.about-bird-image {
+  height: 40vh;
+  width:30vw;
+  border-radius: .5rem;
+  margin-left: 5rem;
+}
 

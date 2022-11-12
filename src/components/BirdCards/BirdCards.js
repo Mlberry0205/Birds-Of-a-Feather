@@ -39,10 +39,10 @@ const BirdCard = ({id, rec, country, location, sound}) => {
   }
   return (
       <div className='card' id={id}>
-        <h3>{location}</h3>
-        <p>{country}</p>
-        <p>Recorder: {rec}</p>
-        <audio
+        <h3 className='location'>{location}</h3>
+        <p className='country'>{country}</p>
+        <p className='recorder'>Recorder: {rec}</p>
+        <audio className='audio'
           controls
            src={`//xeno-canto.org/sounds/uploaded/${findLocationKey(location)}/${sound}`} 
             >
@@ -58,9 +58,3 @@ const BirdCard = ({id, rec, country, location, sound}) => {
 }
 
 export default BirdCard;
-
-// controls
-// src={`//xeno-canto.org/sounds/uploaded/AYDQCSKTHG/${props.birdSound}`}>
-//     <a href={`//xeno-canto.org/sounds/uploaded/AYDQCSKTHG/${props.birdSound}`}>
-//         Download audio
-//     </a>
