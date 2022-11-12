@@ -1,5 +1,5 @@
 <p align="center">
-<img width='400' alt='Art Party logo' src='https://user-images.githubusercontent.com/102934145/201456667-45ebda6d-b9cc-4f68-b9c5-b765952ad323.png'>
+<img width='300' alt='Art Party logo' src='https://user-images.githubusercontent.com/102934145/201456827-5cc76fd2-f58b-4afa-aa50-07b29944e224.png'>
 </p>
 
 ### [Deployed Project]
@@ -46,11 +46,14 @@ Learning Goals for this project included:
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Future Features
-- [x] 
+- [X] Favoriting bird songs
+- [X] Add bird photos to each birdCard
+- [X] Add birds from all around the world
 
 ## Dev Notes
 ### Wins
-- [x] 
+- [x] Configuring bird audio utalizing multiple different ID's
+- [x] Error handling on a controlled form
 
 ### Opportunities for growth
 - [x] Learning how to stub and intercept with Cypress testing
@@ -61,4 +64,9 @@ Learning Goals for this project included:
 Morgan Berry |
 morganlyn.berry@gmail.com |
 [Github](https://github.com/Mlberry0205) |
-[LinkedIn](https://www.linkedin.com/in/morgan-lyn-berry/) |
+[LinkedIn](https://www.linkedin.com/in/morgan-lyn-berry/)
+
+## Project planning & Acknowledgments 
+[Project Board with User Stories](https://github.com/users/alyciacan/projects/5) |
+- John Boudreaux
+
