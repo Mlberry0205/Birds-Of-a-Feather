@@ -1,4 +1,4 @@
-describe('empty spec', () => {
+describe('As a user, when I load the application, I can see a collection of bird audios', () => {
   beforeEach(() => {
     cy.intercept('GET', 'https://xeno-canto.org/api/2/recordings?query=bearded+bellbird+q:A', { fixture: 'allSounds'}).as('recordings')
     cy.visit('http://localhost:3000/')
