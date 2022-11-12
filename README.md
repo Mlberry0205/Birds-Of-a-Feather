@@ -27,7 +27,7 @@ Learning Goals for this project included:
   ```
   https://github.com/Mlberry0205/birds-of-a-feather
   ```
-3. `cd` into `art-party` directory and run:
+3. `cd` into `birds-of-a-feather` directory and run:
   ```
   npm install
   npm start
