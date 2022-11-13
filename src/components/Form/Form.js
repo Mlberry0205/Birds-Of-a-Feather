@@ -21,9 +21,8 @@ function Form({ handleClick }) {
           required
         />
           <button type='submit' onClick={(event) => handleSubmit(event)}>SEARCH</button>
-          <p>Sounds available from: Brazil, Venezuela, & Trinidad & Tobago </p>
-      </form>
-      
+          <p>Sounds available from: Brazil, Venezuela, and Trinidad & Tobago </p>
+      </form>  
     )
   }
 

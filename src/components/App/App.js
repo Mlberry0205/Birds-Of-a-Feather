@@ -1,4 +1,3 @@
-import Birds from '../BirdContainer/BirdContainer'
 import BirdContainer from '../BirdContainer/BirdContainer'
 import Navbar from '../Navbar/Navbar';
 import { getBirds } from '../../apiCalls'
@@ -23,7 +22,6 @@ function App() {
       getBirdData()
     }, [])
 
- 
     const handleClick = (search) => {
       const searchResult = birds?.filter((bird) => {
         if (bird.cnt.toLowerCase() === search) {

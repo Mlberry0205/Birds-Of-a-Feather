@@ -26,10 +26,9 @@ it('should tell a user that their form input did not bring up any results and to
   cy
     .get('input').type('United States')
     .get('button')
-    .click()   
+    .click() 
+    .get('p.error').contains('No sounds found.')
 })
-
-
 
 it('should be able to click on the About Us button and be taken to the About page as well as go back home by clicking the logo', () => {
   cy
@@ -48,7 +47,7 @@ it('should display all information and recording of each bird', () => {
     .get('.audio')
 })
 
-it('Should be able to use the browser arrow buttons to go between the home page and AboutUs', () => {
+it('should be able to use the browser arrow buttons to go between the home page and AboutUs', () => {
     cy.visit("http://localhost:3000/AboutUs")
       .url().should('eq', 'http://localhost:3000/AboutUs')
       .go('back')
@@ -68,9 +67,6 @@ it('Should be able to use the browser arrow buttons to go between the home page 
       .visit('http://localhost:3000/fsdf')
       .get('h1.error-text').contains('Page not found')
       .get('p.error-text').contains(`We looked all`)
-      .get('button.error-button').contains('Home')
-    
+      .get('button.error-button').contains('Home') 
   })
-
-
 })
