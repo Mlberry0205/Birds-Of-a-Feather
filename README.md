@@ -2,7 +2,7 @@
 <img width='300' alt='Art Party logo' src='https://user-images.githubusercontent.com/102934145/201456827-5cc76fd2-f58b-4afa-aa50-07b29944e224.png'>
 </p>
 
-### [Deployed Project]
+### [Deployed Project](https://birds-of-a-feather-pi.vercel.app/)
 
 ## Overview
 Birds of a Feather is an app that allows bird watching enthusiasts to explore the various sounds of the Bearded Bellbird.  The user can search different countries to hear the calls of this bird from that region.
