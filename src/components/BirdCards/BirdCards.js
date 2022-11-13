@@ -1,6 +1,5 @@
 import React from 'react';
 import './BirdCards.css'
-// import { Link } from 'react-router-dom'
 
 const BirdCard = ({id, rec, country, location, sound}) => {
   const findLocationKey = (location) => {

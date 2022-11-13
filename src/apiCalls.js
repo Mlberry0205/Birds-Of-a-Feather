@@ -6,7 +6,6 @@ const getBirds = async () => {
       throw new Error(response.status)
     }
     const data = await response.json()
-    // console.log('hello', data)
     return data;
   }
   catch (error) {

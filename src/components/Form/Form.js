@@ -4,9 +4,12 @@ import './Form.css';
 function Form({ handleClick }) {
   const [search, setSearch] = useState('')
 
-  const clearInputs = () => {
-    setSearch('')
-  }
+ const handleSubmit = (event) => {
+  event.preventDefault()
+      setSearch('')
+      handleClick(search.toLowerCase())
+    }
+  
     return (
       <form >
         <input 
@@ -17,8 +20,9 @@ function Form({ handleClick }) {
           onChange={event => setSearch(event.target.value)}
           required
         />
-          <button type='submit' onClick={(event) => handleClick(event, search)}>SEARCH</button>
-      </form>
+          <button type='submit' onClick={(event) => handleSubmit(event)}>SEARCH</button>
+          <p>Sounds available from: Brazil, Venezuela, and Trinidad & Tobago </p>
+      </form>  
     )
   }
 

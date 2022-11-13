@@ -1,4 +1,4 @@
-describe('empty spec', () => {
+describe('As a user, when I load the application, I can see a collection of bird audios', () => {
   beforeEach(() => {
     cy.intercept('GET', 'https://xeno-canto.org/api/2/recordings?query=bearded+bellbird+q:A', { fixture: 'allSounds'}).as('recordings')
     cy.visit('http://localhost:3000/')
@@ -19,8 +19,15 @@ it('should allow a user to use the search feature form', () => {
   cy
     .get('input').type('Brazil')
     .get('button')
-    .click()
-    
+    .click()   
+})
+
+it('should tell a user that their form input did not bring up any results and to try again', () => {
+  cy
+    .get('input').type('United States')
+    .get('button')
+    .click() 
+    .get('p.error').contains('No sounds found.')
 })
 
 it('should be able to click on the About Us button and be taken to the About page as well as go back home by clicking the logo', () => {
@@ -40,7 +47,7 @@ it('should display all information and recording of each bird', () => {
     .get('.audio')
 })
 
-it('Should be able to use the browser arrow buttons to go between the home page and AboutUs', () => {
+it('should be able to use the browser arrow buttons to go between the home page and AboutUs', () => {
     cy.visit("http://localhost:3000/AboutUs")
       .url().should('eq', 'http://localhost:3000/AboutUs')
       .go('back')
@@ -55,5 +62,11 @@ it('Should be able to use the browser arrow buttons to go between the home page 
       .get('.about-bird-image')
   })
 
-
+  it('should bring a user to the error page if the user types in a bad URL', () => {
+    cy
+      .visit('http://localhost:3000/fsdf')
+      .get('h1.error-text').contains('Page not found')
+      .get('p.error-text').contains(`We looked all`)
+      .get('button.error-button').contains('Home') 
+  })
 })
