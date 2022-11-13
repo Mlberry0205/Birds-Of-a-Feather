@@ -1,6 +1,7 @@
 
 import React from 'react'
 import BirdCard from '../BirdCards/BirdCards'
+import { Link } from "react-router-dom";
 
 const findSearch = ({searchResults}) => {
   console.log(searchResults)
@@ -22,6 +23,14 @@ const findSearch = ({searchResults}) => {
   )
   return (
     <section className='searchResults'>
+      {!searchResults.length && (
+        <div>
+        <p>No results found.  Please try again.</p>
+        <Link to="/">
+        <button className='error-button'>Home</button>
+      </Link>
+        </div>
+      )}
       {searchBirds}
     </section>
   )

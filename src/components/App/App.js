@@ -23,16 +23,16 @@ function App() {
       getBirdData()
     }, [])
 
-    const handleClick = (event, search) => {
-      event.preventDefault()
+ 
+    const handleClick = (search) => {
       const searchResult = birds?.filter((bird) => {
-        if (bird.cnt === search) {
+        if (bird.cnt.toLowerCase() === search) {
           return bird
         }
       })
       setSearchResults(searchResult)
       history.push('/SearchResults')
-      console.log(searchResults)
+
     }
 
     return (
@@ -58,6 +58,7 @@ function App() {
       </main>
     )
   }
+
 
 
 export default App;
