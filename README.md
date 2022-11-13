@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+<p align="center">
+<img width='300' alt='Art Party logo' src='https://user-images.githubusercontent.com/102934145/201456827-5cc76fd2-f58b-4afa-aa50-07b29944e224.png'>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### [Deployed Project](https://birds-of-a-feather-pi.vercel.app/)
 
-## Available Scripts
+## Overview
+Birds of a Feather is an app that allows bird watching enthusiasts to explore the various sounds of the Bearded Bellbird.  The user can search different countries to hear the calls of this bird from that region.
 
-In the project directory, you can run:
+## Project Context
+I am a Mod 3 students in the Front-End Program at [Turing School of Software and Design](https://frontend.turing.edu/), which means we have been devs for 6 months!  Birds of a Feather is my third React application.
 
-### `npm start`
+Learning Goals for this project included:      
+✔️ Use the technology you’ve been working with over the course of the module to demonstrate mastery of the following:  
+✔️ React, Router, Asynchronous JavaScript, End to end testing with Cypress          
+✔️ Create a multi-page engaging UX using React Router 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Link to Project Description](https://frontend.turing.edu/projects/module-3/showcase.html)
 
-### `npm test`
+## Demo
+Home dashboard view:
+<img width="1416" alt="Screen Shot 2022-11-13 at 4 22 17 PM" src="https://user-images.githubusercontent.com/102934145/201550038-6dd0a38a-89c9-4492-922b-cf230d66cda5.png">
+About us view:
+<img width="1414" alt="Screen Shot 2022-11-13 at 4 22 41 PM" src="https://user-images.githubusercontent.com/102934145/201550088-00a06d0d-7b92-4b46-97c0-501969512851.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Setup
+1. From your terminal, `cd` back to your parent directory
+2. Clone down this repository:
+  ```
+  https://github.com/Mlberry0205/birds-of-a-feather
+  ```
+3. `cd` into `birds-of-a-feather` directory and run:
+  ```
+  npm install
+  npm start
+  ```
+4. Enter the following url in your browser: http://localhost:3000/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
+![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) 
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) 
+![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e) 
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black) 
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) 
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Dev Notes
+### Wins
+- [x] Configuring bird audio utalizing multiple different ID's
+- [x] Creating a component to view search results when a user enters a specific bird to search for.
+- [x] Learning hooks: UseState & useEffect
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Opportunities for growth
+- [x] Error handling on a controlled form
+- [x] Expanding our knowledge of Cypress syntax
+- [x] Practice using React hooks: useState & useEffect
 
-### `npm run eject`
+## Future Features
+- [X] Favoriting bird songs
+- [X] Add bird photos to each birdCard
+- [X] Add birds from all around the world
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Developed by:
+Morgan Berry |
+morganlyn.berry@gmail.com |
+[Github](https://github.com/Mlberry0205) |
+[LinkedIn](https://www.linkedin.com/in/morgan-lyn-berry/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project planning & Acknowledgments 
+[Project Board with User Stories](https://github.com/users/Mlberry0205/projects/6) |
+- John Boudreaux
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
