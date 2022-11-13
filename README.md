@@ -19,7 +19,10 @@ Learning Goals for this project included:
 [Link to Project Description](https://frontend.turing.edu/projects/module-3/showcase.html)
 
 ## Demo
-(<img width="1416" alt="Screen Shot 2022-11-13 at 4 22 17 PM" src="https://user-images.githubusercontent.com/102934145/201550038-6dd0a38a-89c9-4492-922b-cf230d66cda5.png">)
+Home dashboard view:
+<img width="1416" alt="Screen Shot 2022-11-13 at 4 22 17 PM" src="https://user-images.githubusercontent.com/102934145/201550038-6dd0a38a-89c9-4492-922b-cf230d66cda5.png">
+About us view:
+<img width="1414" alt="Screen Shot 2022-11-13 at 4 22 41 PM" src="https://user-images.githubusercontent.com/102934145/201550088-00a06d0d-7b92-4b46-97c0-501969512851.png">
 
 
 ## Setup
