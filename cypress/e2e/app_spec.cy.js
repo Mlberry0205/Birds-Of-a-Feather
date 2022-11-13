@@ -19,9 +19,17 @@ it('should allow a user to use the search feature form', () => {
   cy
     .get('input').type('Brazil')
     .get('button')
-    .click()
-    
+    .click()   
 })
+
+it('should tell a user that their form input did not bring up any results and to try again', () => {
+  cy
+    .get('input').type('United States')
+    .get('button')
+    .click()   
+})
+
+
 
 it('should be able to click on the About Us button and be taken to the About page as well as go back home by clicking the logo', () => {
   cy
@@ -53,6 +61,15 @@ it('Should be able to use the browser arrow buttons to go between the home page 
     cy.visit("http://localhost:3000/AboutUs")
       .get('p.text').contains('The bearded')
       .get('.about-bird-image')
+  })
+
+  it('should bring a user to the error page if the user types in a bad URL', () => {
+    cy
+      .visit('http://localhost:3000/fsdf')
+      .get('h1.error-text').contains('Page not found')
+      .get('p.error-text').contains(`We looked all`)
+      .get('button.error-button').contains('Home')
+    
   })
 
 

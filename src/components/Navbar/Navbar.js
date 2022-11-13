@@ -10,7 +10,7 @@ const Navbar = () => {
         <img src={ logo } alt='Birds of a Feather logo' className='logo-img'/>
       </Link>
       <NavLink to="/AboutUs" className='about-us'>About Us</NavLink>
-      <p className='tagline'>Sounds of the Bearded Bellbird</p>
+      <p className='tagline'>Sounds of the Bearded Bellbird found in South America</p>
       <img className='about-bird-cnt' src={southAmerica} alt={'Map of South America'}/> 
     </nav>
   )
