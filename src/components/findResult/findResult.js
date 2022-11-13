@@ -18,7 +18,7 @@ const findSearch = ({searchResults}) => {
   }
   )
   return (
-    <section className='searchResults'>
+    <section className='bird'>
       {!searchResults.length && (
         <div>
         <p className='error'>No sounds found.  Please try another country.</p>
