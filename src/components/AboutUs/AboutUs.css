@@ -1,15 +1,23 @@
 .about-layout {
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-content:space-around;
   align-content: space-between;
-  text-align: center;
   justify-content: center;
-  padding-left: 10rem;
-  padding-right: 10rem;
-  padding-top: 2rem;
+  padding-top: 5rem;
+}
+
+.text {
+  height: 50vh;
+  width: 50vh;
+  margin-top: 4rem;
 }
 
 .about-bird-image {
-  height: 70vh;
-  width:75vw;
+  height: 40vh;
+  width:30vw;
+  border-radius: .5rem;
+  margin-left: 5rem;
+  margin-top: 1rem;
 }
+

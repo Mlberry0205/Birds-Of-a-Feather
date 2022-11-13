@@ -1,0 +1,11 @@
+form {
+  display:flex;
+  justify-content: center;
+  background-color: #b6d692;
+}
+
+input, button {
+  margin: .5em;
+  border: 3px solid #458df6;
+  font-size: 1em;
+}
