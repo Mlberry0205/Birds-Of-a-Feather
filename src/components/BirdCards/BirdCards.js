@@ -33,6 +33,8 @@ const BirdCard = ({id, rec, country, location, sound}) => {
       return 'AFEHYCAHZR'
     } else if (location === 'Asa Wright Nature Centre' && rec === 'Uffe Damm Andersen') {
       return 'HWHDLZAAXE'
+    } else if (rec === 'JAYRSON ARAUJO DE OLIVEIRA') {
+      return 'LXKLWEDKEM'
     }
 
   }
@@ -57,3 +59,4 @@ const BirdCard = ({id, rec, country, location, sound}) => {
 }
 
 export default BirdCard;
+
