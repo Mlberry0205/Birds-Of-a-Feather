@@ -20,9 +20,8 @@ Learning Goals for this project included:
 
 ## Demo
 Home dashboard view:
-<img width="1416" alt="Screen Shot 2022-11-13 at 4 22 17 PM" src="https://user-images.githubusercontent.com/102934145/201550038-6dd0a38a-89c9-4492-922b-cf230d66cda5.png">
-About us view:
-<img width="1414" alt="Screen Shot 2022-11-13 at 4 22 41 PM" src="https://user-images.githubusercontent.com/102934145/201550088-00a06d0d-7b92-4b46-97c0-501969512851.png">
+<img width="1386" alt="Screen Shot 2023-02-11 at 8 55 04 AM" src="https://user-images.githubusercontent.com/102934145/218267964-ed30e523-84c1-43d9-89f8-d59739c07060.png">
+
 
 
 ## Setup
