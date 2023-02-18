@@ -1,7 +1,6 @@
-.card {
+.birds-container {
   display: flex;
   justify-content: center;
-  background-color: #e6e6e6;
   padding: .5rem;
   flex-wrap: wrap;
 }

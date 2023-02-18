@@ -4,7 +4,7 @@ form {
   align-items: center;
   flex-direction: row;
   padding: 1em;
-  background-image: url('.//../BirdContainer/birds.png');
+  /* background-image: url('.//../BirdContainer/birds.png'); */
   background-size: 1000px 1100px;
 }
 

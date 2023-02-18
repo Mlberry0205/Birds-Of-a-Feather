@@ -1,0 +1,42 @@
+.about-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.text {
+  width: 40vw;
+  margin: 2rem;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.about-bird-image {
+  height: 40vh;
+  width: 30vw;
+  border-radius: .5rem;
+  margin-left: 3rem;
+  object-fit: cover;
+}
+
+.button-arrange {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-item {
+  margin: 20px;
+  align-items: center;
+    justify-content: center;
+}
+
+.cta-title {
+  font-family: 'Libre Caslon Text', serif;
+  align-items: center;
+  justify-content: center;
+}
+

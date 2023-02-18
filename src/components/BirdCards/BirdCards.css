@@ -4,8 +4,7 @@
   align-items: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 500;
-  border: 3px solid #458df6;
-  background-color: rgba(3, 93, 18, 0.518);
+  background-color: gray;
   color: black;
   box-shadow: 3px 5px 5px #888888;
   width: 500px !important;
