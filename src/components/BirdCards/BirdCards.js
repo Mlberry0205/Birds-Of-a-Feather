@@ -2,56 +2,21 @@ import React from 'react';
 import './BirdCards.css'
 
 const BirdCard = ({id, rec, country, location, sound}) => {
-  const findLocationKey = (location) => {
-    if (location === 'Barbalha, Ceará') {
-      return 'AYDQCSKTHG' 
-    } else if (location === 'La Escalera, Sierra de Lema, Bolívar' && rec === 'Andrew Spencer') {
-      return 'CDTGHVBGZP'
-    } else if (location === 'Asa Wright Nature Centre' && rec === 'Dan Lane') {
-      return 'WOEAFQRMUD'
-    } else if (location === 'Sección Capital Gran Sabana, La Gran Sabana, Bolívar') {
-      return 'JQSYKZHEMB'
-    } else if (location === 'Pacatuba, State of Ceará') {
-      return 'MXVQPUKGWW'
-    } else if (location === 'Araguaína, State of Tocantins Campus UFT') {
-      return 'LXKLWEDKEM'
-    } else if (location === 'Serra da Aratanha, Pacatuba-CE, Ceará') {
-      return 'YWWWUBVAJF'
-    } else if (location === 'Marituba, Pará') {
-      return 'NNCKQMBGPH'
-    } else if (location === 'Ribeirão Cancela, Chapada das Mesas National Park, Carolina, Maranhão') {
-      return 'WZSVLIHYQF'
-    } else if (location === 'Upper escalera, Bolivar') {
-      return 'OOECIWCSWV'
-    } else if (location === 'La Escalera, Bolívar' && rec === 'Hans Matheve') {
-      return 'VROUALCTKG'
-    } else if (location === 'Quebrangulo, Alagoas') {
-      return 'YTUXOCTUEM'
-    } else if (location === 'La Escalera, Bolívar' && rec === 'Joe Klaiber') {
-      return 'TNPOVFLZMY'
-    } else if (location === 'La Escalera, Sierra de Lema, Bolívar' && rec === 'David Edwards') {
-      return 'AFEHYCAHZR'
-    } else if (location === 'Asa Wright Nature Centre' && rec === 'Uffe Damm Andersen') {
-      return 'HWHDLZAAXE'
-    } else if (rec === 'JAYRSON ARAUJO DE OLIVEIRA') {
-      return 'LXKLWEDKEM'
-    }
 
-  }
   return (
       <div className='card' id={id}>
         <h3 className='location'>{location}</h3>
         <p className='country'>{country}</p>
-        <p className='recorder'>Recorder: {rec}</p>
+        <p className='country'>{rec}</p>
         <audio className='audio'
+          src={`https://xeno-canto.org/${id}/download`} 
           controls
-           src={`//xeno-canto.org/sounds/uploaded/${findLocationKey(location)}/${sound}`} 
-            >
-            <a 
-            href={`//xeno-canto.org/sounds/uploaded/${findLocationKey(location)}/${sound}`}
-            >
+          >
+          <a 
+          href={`https://xeno-canto.org/${id}/download`}
+          >
         Download audio
-            </a>
+          </a>
         {sound}
         </audio>
       </div>

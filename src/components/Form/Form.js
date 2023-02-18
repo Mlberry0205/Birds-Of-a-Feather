@@ -14,14 +14,14 @@ function Form({ handleClick }) {
       <form >
         <input 
           type='text'
-          placeholder='Search by country'
+          placeholder='Search recordings...'
           name='search'
           value={search}
           onChange={event => setSearch(event.target.value)}
           required
         />
-          <button type='submit' onClick={(event) => handleSubmit(event)}>SEARCH</button>
-          <p className='availableSounds'>Sounds available from: Brazil, Venezuela, and Trinidad & Tobago </p>
+          <button type='submit' disabled={!search} onClick={(event) => handleSubmit(event)}>RESULTS</button>
+          <p className='availableSounds'>Search a bellbird by a specific location or recorder </p>
       </form>  
     )
   }

@@ -1,8 +1,12 @@
 .birds-container {
-  display: flex;
-  justify-content: center;
-  padding: .5rem;
-  flex-wrap: wrap;
-  background-image: url('./birds.png');
-  background-size: 3000px 3000px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .birds-container {
+    grid-template-columns: 1fr;
+  }
 }
