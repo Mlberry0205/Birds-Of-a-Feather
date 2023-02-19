@@ -5,7 +5,7 @@ const BirdCard = ({id, rec, country, location, sound}) => {
 
   return (
       <div className='card' id={id}>
-        <h3 className='location'>{location}</h3>
+        <p className='location'>{location}</p>
         <p className='country'>{country}</p>
         <p className='country'>{rec}</p>
         <audio className='audio'
