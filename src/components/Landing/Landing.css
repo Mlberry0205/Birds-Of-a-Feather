@@ -16,7 +16,6 @@
   background-color: #551a8b;
   border: 2px solid #551a8b;
   border-radius: 8px;
-  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
   box-sizing: border-box;
   color: white;
   cursor: pointer;
@@ -39,11 +38,11 @@
 
 .cta-buttons:hover {
   background-color: #fff;
-  color: #578b89;
+  color: black;
 }
 
 .cta-buttons:focus {
-  border-color: #578b89;
+  border-color: black;
   box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
   outline: 0;
 }
@@ -57,8 +56,6 @@
 
 .cta-item {
   margin: 10px;
- 
-  
 }
 
 .cta-title {
