@@ -3,20 +3,30 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 1rem;
 }
 
 .text {
-  width: 40vw;
-  margin: 2rem;
-  text-align: justify;
-  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: large;
+  width: fit-content;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 8em;
+  padding-right: 8em;
 }
 
-.about-bird-image {
-  height: 40vh;
-  width: 30vw;
-  border-radius: .5rem;
-  margin-left: 3rem;
-  object-fit: cover;
+h2 {
+  position: relative;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: xxx-large;
+  letter-spacing: 8px;
+  text-decoration: none;
+  -webkit-box-reflect: below .01px linear-gradient(transparent, #0004);
+  line-height: 0.70em;
+  outline: none;
+  animation: animate 5s linear infinate;
+  margin-left: 2em;
 }
